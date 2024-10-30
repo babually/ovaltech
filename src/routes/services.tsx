@@ -25,7 +25,7 @@ function ServicesComponent() {
             {/* Hero Section */}
             <div className='py-20'>
                 <div className='relative xl:container m-auto px-6 md:px-12 lg:px-6'>
-                    <h1 className='text-wrap text-5xl underline text-left pb-8'>Our Services </h1>
+                    <h1 className='text-wrap text-2xl underline text-left pb-8'>Our Services </h1>
                     <h1 className="sm:mx-auto sm:w-10/12 md:w-2/3 font-black text-blue-900 text-4xl text-center sm:text-5xl md:text-6xl lg:w-auto lg:text-left xl:text-7xl dark:text-white">
                         Run successful remote and <br className="lg:block hidden" /> 
                         <span className="relative text-transparent bg-clip-text bg-gradient-to-r from-primary to-secondary dark:from-primaryLight dark:to-secondaryLight">Hybrid teams</span>.
