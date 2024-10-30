@@ -1,3 +1,4 @@
+import { ContactUs } from "@/components/Contactus";
 import { Button } from "@/components/ui/button";
 import { Card, CardHeader, CardTitle, CardDescription, CardContent } from "@/components/ui/card";
 
@@ -5,7 +6,6 @@ import { Separator } from "@/components/ui/separator";
 import { createFileRoute, Link } from "@tanstack/react-router";
 import { Code, Paintbrush, Smartphone, Server, Globe, ShieldCheck, } from "lucide-react";
 
-import { ContactUs } from "@/components/contactus";
 
 export const Route = createFileRoute('/')({
     component: IndexComponent

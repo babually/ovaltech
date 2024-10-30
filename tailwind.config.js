@@ -53,7 +53,18 @@ export default {
   				'4': 'hsl(var(--chart-4))',
   				'5': 'hsl(var(--chart-5))'
   			}
-  		}
+  		},
+		animation: {
+			["infinite-slider"]: "infiniteSlider 20s linear infinite",
+		},
+		keyframes: {
+			infiniteSlider: {
+				"0%": { transform: "translateX(0)" },
+				"100%": {
+				transform: "translateX(calc(-250px * 5))",
+				},
+			},
+		},
   	}
   },
   plugins: [require("tailwindcss-animate")],
